@@ -1,6 +1,7 @@
 from uiutils import *
 
 lang=language()
+print(lang)
 if lang=='cn':
 	print('lang = cn')
 	os.system('sudo python3 main.py')
