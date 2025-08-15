@@ -189,7 +189,7 @@ logo = Image.open(os.path.join(current_dir, "pics", "luwu@3x.png"))      # 加�
 wifiy = Image.open(os.path.join(current_dir, "pics", "wifi@2x.png"))     # 加载WiFi图标
 
 # 显示产品类型信息
-#lcd_draw_string(draw, 210, 133, firmware_info, color=color_white, scale=font1)  # 显示xgolite的版本信息
+lcd_draw_string(draw, 210, 133, firmware_info, color=color_white, scale=font1)  # 显示xgolite的版本信息
 lcd_draw_string(draw, 140, 133, "DOGZILLA-Lite", color=color_white, scale=font1)  # 显示Yahboom产品名称
 lcd_draw_string(draw, 180, 153, "CM4", color=color_white, scale=font1)           # 显示CM4标识
 

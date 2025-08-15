@@ -1,5 +1,5 @@
 from uiutils import *
-
+# /home/pi/RaspberryPi-CM4-main/language/language.ini
 lang=language()
 print(lang)
 if lang=='cn':
